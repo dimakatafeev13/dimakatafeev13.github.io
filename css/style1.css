@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+	background-image: url('lakers0.jpg');
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-direction: column;
+}
+header{
+	width: 100%;
+	display: inline-flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+#menu{
+	width:50%;
+	display: inline-flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+#contact{
+	width:10%;
+	display: inline-flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 3%;
+	margin-right: 7%;
+}
+article{
+	background: #000;
+	width:90%;
+	margin-left: 5%;
+	margin-top: 2%;
+	   border: 0.3em solid #000;
+}
+.flex-container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-around;
+  list-style: none;
+}
+.flex-item {
+  background: #fff;
+  margin-right: 0.1%;
+   margin-bottom: 0.1%;
+   border: 0.1em solid gray;
+  
+}
+footer{
+	width: 100%;
+	background: #000;
+	margin-top: 2%;
+}
+a{
+	text-decoration: none;
+	 color: #fff;
+	 font-size: 120%;
+}
+.line { 
+    padding-right: 1%;
+	padding-left: 1%;
+	 padding-bottom: 1%;
+	 border-bottom: 0.1em solid #fda502;
+	 padding-top: 1%;
+   }
+   .line2 { 
+	 border-bottom: 0.3em solid #fda502;
+	 width: 26%;
+	 margin-left:38%;
+   }
+   h2{
+	   font-size: 200%;
+	   background-color: #000;
+	   color: #fff;
+	   padding-left: 1%;
+	   padding-right: 1%;
+	   text-align: center;
+   }
+   h3{
+	  text-align: center;
+	   margin-top: 1%;
+   }
+   h4{
+	   text-align: center;
+	   margin-top: -5%;
+	   font-family: segoe print;
+	   color: #fda502;
+   }
+   h5{
+	   text-align: right;
+	   font-family: footlight mt light;
+	   font-size: 210%;
+	   color: #851085;
+	   margin-right: 3%;
+	   margin-top: -30%;
+   }
+   h6{
+	   font-style: italic;
+	  color: #fff;
+   }
